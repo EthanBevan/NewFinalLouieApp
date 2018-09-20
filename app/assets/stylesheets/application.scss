@@ -1,0 +1,195 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/*.middleSection {
+
+  font-size: 30px;
+}
+
+span {
+  color: DodgerBlue;
+}
+
+*/
+
+body {
+   background: url("unnamed.jpg"); 
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
+
+}
+
+/*.boxy{
+   
+   background-image: url('LouieFinalAppRepository/app/assets/images/unnamed.jpg');
+
+ }*/
+
+.title-container {
+  text-align: center;
+   font-size: 70px;
+   color: white;
+    background-color: DodgerBlue;
+    padding: 10px 10px 10px 10px;
+   /* margin: 20px 0px 0px 200px;*/
+     opacity: 0.7;
+    /* border-radius: 20px;
+border: 10px solid white;*/
+opacity: 0.7;
+/*width: 60%;
+text-align: center;*/
+
+}
+
+
+.middleSection { 
+
+  font-size: 70px;
+  text-align: center;
+padding: 60px 0px 0px 0px;
+color: white;
+ opacity: 0.7;
+
+ }
+
+ .middleSection1 {
+   font-size: 40px;
+  text-align: left;
+padding: 20px 10px 0px 10px;
+margin: 80px 2px 0px 10px;
+color: white;
+/*background-color: DodgerBlue;*/
+ /*opacity: 0.7;*/
+ }
+
+ .middleSection1 td {
+  padding: 30px 10px 30px 10px;
+  margin: 40px 0px 40px 0px;
+  background-color: DodgerBlue;
+  opacity: 0.7;
+  border: 10px solid white;
+  border-collapse: separate;
+    border-spacing: 15px;
+
+ }
+
+
+
+
+
+.louieHistory {
+   font-size: 40px;
+  text-align: left;
+padding: 10px;
+background-color: DodgerBlue;
+margin: 220px 0px 0px 80px;
+width: 30%;
+text-align: center;
+border-radius: 20px;
+border: 10px solid white;
+opacity: 0.7;
+
+}
+
+.louieHistory a{
+
+color: white;
+
+}
+
+
+
+
+.louieHistory1 {
+   font-size: 40px;
+  text-align: left;
+padding: 10px;
+background-color: DodgerBlue;
+margin: 60px 0px 0px 40px;
+width: 30%;
+text-align: center;
+border-radius: 20px;
+border: 10px solid white;
+opacity: 0.7;
+}
+
+.louieHistory1 a {
+  color: white;
+}
+
+
+
+
+
+.btn-primary {
+    -webkit-appearance: none; 
+   -moz-appearance: none;
+   appearance: none;   
+   background-color: DodgerBlue;
+
+   color: white;
+  font-size: 70px;
+/*  margin: 10px;*/
+padding: 0px 400px 0px 410px;
+    text-align: center;
+}
+
+.btn-primary1 {
+  -webkit-appearance: none; 
+   -moz-appearance: none;
+   appearance: none;   
+   background-color: DodgerBlue;
+   color: white;
+  font-size: 70px;
+/*  margin: 10px;*/
+padding: 0px 300px 0px 310px;
+    text-align: center;
+}
+
+.btn-primary2 {
+ -webkit-appearance: none; 
+   -moz-appearance: none;
+   appearance: none;   
+   background-color: DodgerBlue;
+   color: white;
+  font-size: 70px;
+/*  margin: 10px;*/
+padding: 0px 160px 0px 280px;
+    text-align: center;
+    margin: 0px 20px 0px 0px;
+}
+
+
+
+.btn-primary3 {
+ -webkit-appearance: none; 
+   -moz-appearance: none;
+   appearance: none;   
+   background-color: DodgerBlue;
+   color: white;
+  font-size: 70px;
+/*  margin: 10px;*/
+padding: 0px 290px 0px 350px;
+    text-align: center;
+      margin: 0px 20px 0px 0px;
+}
+
+
+
+
+.btn-primaryOne {
+-webkit-appearance: none; 
+   -moz-appearance: none;
+   appearance: none;   
+   background-color: DodgerBlue;
+   color: white;
+  font-size: 70px;
+/*  margin: 10px;*/
+padding: 0px 40px 0px 40px;
+    text-align: center;
+
+}
+
+i {
+  padding: 0px 0px 0px 30px;
+}

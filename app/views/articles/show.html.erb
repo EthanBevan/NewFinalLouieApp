@@ -1,0 +1,25 @@
+
+<p>
+  <strong>Title:</strong>
+  <%= @article.title %>
+</p>
+ 
+<p>
+  <strong>Text:</strong>
+  <%= @article.text %>
+</p>
+
+<p>
+  <strong>Who?:</strong>
+  <%= @article.class_name %>
+</p>
+
+<p>
+  <strong>Day</strong>
+  <%= @article.week_name %>
+</p>
+
+<a href="new">Add New Louie Entry</a>
+
+
+<%= link_to 'Back', articles_path %>

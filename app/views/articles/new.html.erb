@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Louie App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <div id="boxy"> 
+  <div>
+    <h1 class="title-container">Fed Or Not<i class="fa fa-paw"></i></h1>
+<br><br>
+  </div><br>
+
+<div class="louieHistory">
+  <a href="/articles">Louie History</a>
+</div>
+
+  <div class="middleSection">
+    <%= form_with scope: :article, url: articles_path, local: true do |form| %> 
+
+      <tr>
+        <td>
+
+          Louie has been fed by <br><span> <%= form.select(:class_name, (Article::CLASS_LIST), {}, {class: "btn-primary1"}) %></span>
+        
+
+        </td><br>
+        <td>on <br> <span><%= form.select(:week_name, (Article::WEEK_LIST), {}, {class: "btn-primary2"}) %></span></td><br>
+        <td>the <br> <span> <%= form.select(:date_name, (Article::DATE_LIST), {}, {class: "btn-primary3"}) %></span></td><br><br>
+        <td><span><%= form.submit "Submit", class: "btn-primaryOne" %></span></td>
+      </tr>
+
+    <% end %>
+
+
+
+</div>
+</body>
+</html>
+
+  
+
+
+

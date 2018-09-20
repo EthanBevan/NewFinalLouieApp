@@ -1,0 +1,23 @@
+
+<div class="louieHistory1"> <%= link_to 'New article', new_article_path %> </div>
+<div class="middleSection1">
+
+<table>
+<!--   <tr>
+    <th>Title</th>
+    <th>Text</th>
+    <th></th>
+  </tr> -->
+ 
+  <% @articles.each do |article| %> 
+    <tr>
+      <td>Louie has been fed by <%= article.class_name %>
+      on <%= article.week_name %>
+      the <%= article.date_name %></td>
+
+        </tr>
+
+  
+  <% end %>
+</div>
+</table>
